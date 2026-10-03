@@ -12,14 +12,16 @@
 ## 环境
 
 - Python 3.9
-- PyTorch 1.8.2 + CUDA 11.1
-- YOLOv5 v6.2
-- NumPy 1.23
-- Pillow 9.5.0
+- PyTorch 2.7.1 + CUDA 11.8
+- Ultralytics 8.4.171
+- YOLO26s
 
 ## 数据集
 
 BDD100K trainA：35644 张训练图 + 1000 张测试图
+- 训练/验证/测试 = 8:1:1
+- 9 类：bus, traffic light, traffic sign, person, bike, truck, motor, car, rider
+
 
 ## 流程
 

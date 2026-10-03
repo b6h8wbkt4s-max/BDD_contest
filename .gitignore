@@ -18,7 +18,7 @@ __pycache__/
 
 # 训练输出（太大）
 runs/
-
+runs_yolo26/
 # 虚拟环境
 venv/
 env/
@@ -31,3 +31,8 @@ env/
 # 系统
 .DS_Store
 Thumbs.db
+
+# 官方权重（放 models/ 里传自己的）
+yolov5s.pt
+yolov8s.pt
+yolo26s.pt

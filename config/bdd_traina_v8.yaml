@@ -1,0 +1,16 @@
+path: D:/11ljx-work/BDD_contest/datasets
+train: images/train
+val: images/val
+test: images/test
+
+nc: 9
+names:
+  - bus
+  - traffic light
+  - traffic sign
+  - person
+  - bike
+  - truck
+  - motor
+  - car
+  - rider
