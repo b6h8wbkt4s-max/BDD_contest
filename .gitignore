@@ -1,0 +1,33 @@
+# 数据集（太大，不传）
+trainA/
+trainB/
+datasets/
+label_contest/
+
+# yolov5 原版代码（从 GitHub 下载，不重复传）
+yolov5-6.2/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+
+# 训练输出（太大）
+runs/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
