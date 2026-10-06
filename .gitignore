@@ -4,6 +4,11 @@ trainB/
 datasets/
 label_contest/
 
+# COCO 数据集（太大，不传）
+coco/
+coco-3/
+coco_dataset/
+
 # yolov5 原版代码（从 GitHub 下载，不重复传）
 yolov5-6.2/
 
@@ -32,7 +37,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# 官方权重（放 models/ 里传自己的）
-yolov5s.pt
-yolov8s.pt
-yolo26s.pt
+# 权重文件（models/ 里的自训权重要传）
+*.pt
+!models/
+!models/*.pt
